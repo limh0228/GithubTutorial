@@ -16,12 +16,16 @@ Supplementary labs will introduce additional common Git commands and resources. 
     -  Go to your fork's repository on GitHub
     - Click the green **Code** button. This will give you the project URL for your fork. Copy this URL.
     - In your shell, navigate to the directory where you would like to clone the project. If you are unfamiliar with navigating through the shell, use [this page](https://linuxize.com/post/linux-cd-command/) as a helpful guide to **cd**.
-    - Type `git clone <project_url>`
+    - Clone your fork repository:
+        ```
+        git clone <project_url>
+        ```
     - If you haven't used Git before, Git may ask you to configure your GitHub credentials. Do this by running the commands below, and then retry your clone command.
-    ```
-    git config ––global user.name “github_username”
-    git config ––global user.email “email_address”
-    ```
+    
+        ```
+        git config ––global user.name “github_username”
+        git config ––global user.email “email_address”
+        ```
 ## Contributing a change
 In this step, you will be making a change to your clone of this repository. Think of an improvement you could make to this project. Which steps did you find confusing? Did you ever feel like I had assumed too much about your knowledge of your system? Here are some examples:
 - Fix a typo in this README to correct
@@ -35,21 +39,26 @@ If do not want to make a change to existing material, create your own supplement
 
 1. In your shell, navigate to the repository clone you have made on your local machine.
 2. Create a branch to encapsulate the changes you will make for your new "feature":
+    
     ```
     git checkout -b "your_new_branch_name"
     ```
 3. Now that you have made and switched to the new branch, make your change. Open up the file you would like to make a change to in your local machine, or alternatively, create you own supplementary lab under `supplementary_labs`. Make your change, and save it.
 4. Run a git status to see your changes, and the filepaths of the files you have changed. Notice they are red because they have not been staged.
 5. Stage your changes for commit by running the following command for every file you changed.
-    ```
+   
+   ```
     git add <insert the filepath of changed file here>
     ```
 6. Commit your staged changes, by running the following command just once:
-    ```
+   
+   ```
     git commit -m "Write a descriptive commit message here about the changes you made"
     ```
 7. Now, push your local change to your remote fork by running this command:
-    ```
+   
+   ```
     git push origin
     ```
 8. Open your remote repository on GitHub. On the main project page, there should be a new popup indicating that the branch containing your changes has been pushed from your local repository to your remote repository. Click the button that says `Compare and create pull request`. This will bring you to a menu showing you the commits encapsulated on this branch.
+9. Once the pull request is submitted, I will need to approve it to merge it.
