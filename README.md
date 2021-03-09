@@ -35,7 +35,7 @@ In this step, you will be making a change to your clone of this repository. Thin
 - Add more markdown styling to make the README more clear
 - Add an additional note about OS specific corrections (i.e. in Windows, you will need to ...)
 
-If do not want to make a change to existing material, create your own supplementary lab under the `supplementary_labs` folder, using the file `supplementary_labs/rebasing` as a template.
+If do not want to make a change to existing material, create your own supplementary lab under the `supplementary_labs` folder, using the file `supplementary_labs/instructions` as a template. Look at the example `supplementary_labs/UnderstandingRebasing` for help.
 
 1. In your shell, navigate to the repository clone you have made on your local machine.
 2. Create a branch to encapsulate the changes you will make for your new "feature":
@@ -58,7 +58,21 @@ If do not want to make a change to existing material, create your own supplement
 7. Now, push your local change to your remote fork by running this command:
    
    ```
-    git push origin
+    git push origin <your branch name>
     ```
 8. Open your remote repository on GitHub. On the main project page, there should be a new popup indicating that the branch containing your changes has been pushed from your local repository to your remote repository. Click the button that says `Compare and create pull request`. This will bring you to a menu showing you the commits encapsulated on this branch.
 9. Once the pull request is submitted, I will need to approve it to merge it.
+
+## Pulling after a merge
+Once I have merged a pull request like yours, pull the now changed code by running:
+
+    ```
+    git pull upstream main
+    ```
+You now have the most current version of the upstream project in your local machine, and if you navigate to where you made your change, you should see nwo that it has been incorporated! Great job!
+
+## Additional materials
+This lab is an extremely rudimentary look at the basics. Git has [hundreds of other advanced functionalities](https://git-scm.com/docs) which students will find extremely useful. Students who have finished the lab, should go complete at least one supplementary lab under the folder `supplementary_labs` which demonstrates one of these additional functions. Estimated time of completion for the supplementary labs is 5 minutes.
+
+## Finally
+Please let me know if you found this lab helpful. Especially let me know if you found this lab incomplete of confusing. Feedback is greatly appreciated. Thanks for your great work!
