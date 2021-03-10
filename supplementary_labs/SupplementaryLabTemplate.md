@@ -1,5 +1,5 @@
 # Supplementary Lab Template
-The supplementary labs are short, simple labs that introduce additional Git commands to users. To create a supplementary lab, copy and paste the template below into a new file under the `supplementary_labs` folder. Pick a new Git command to write up your own lab, filling in the template. Use [`CheckingYourStatus`](CheckingYourStatus.md) as an example lab.
+The supplementary labs are short, simple labs that introduce additional Git commands to users. To create a supplementary lab, copy and paste the template below into a new file under the [`supplementary_labs`](.) folder. Pick a new Git command to write up your own lab, filling in the template. Use [`CheckingYourStatus`](CheckingYourStatus.md) as an example lab.
 
 You can choose any Git command you want, but here are a few simple ones to choose from if you are having trouble picking:
 - git rebase
