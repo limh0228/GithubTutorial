@@ -80,21 +80,14 @@ Once I have merged a pull request like yours, you will have pull the from the or
 
     git remote add upstream <URL od the original remote repo>
     
-jegfyudfuyawfwjhefbjwhebf
-    ```
-    git remote add upstream <URL of the original remote repo>
-    ```
+Verify that the upstream URL was added correctly by running:
     
-    Verify that the upstream URL was added correctly by running:
-    
-    ```
     git remote -v
-    ```
-    Now, you can pull the updated code from the upstream project into your local copy of the code.
     
-    ```
+Now, you can pull the updated code from the upstream project into your local copy of the code.
+    
     git pull upstream
-    ```
+   
 You now have the most current version of the upstream project in your local machine, and if you navigate to where you made your change, you should see now that it has been incorporated! Great job!
 
 ## Additional materials
