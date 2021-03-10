@@ -7,6 +7,8 @@ You can choose any Git command you want, but here are a few simple ones to choos
 - git fetch
 - git merge
 - git checkout
+- git status
+- git log --graph
 
 ## Supplementary Lab Template
 ### Lab Name, containing the name of the command
