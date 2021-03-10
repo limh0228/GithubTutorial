@@ -83,7 +83,7 @@ If do not want to make a change to existing material, create your own supplement
     git pull origin
     ```
     Then, retry your push command.
-8. Open your remote repository on GitHub. On the main project page, there should be a new popup indicating that the branch containing your changes has been pushed from your local repository to your remote repository. Click the button that says `Compare and create pull request`. This will bring you to a menu showing you the commits encapsulated on this branch. Review your changes, and create a pull request.
+8. Open your remote repository on GitHub. On the main project page, there should be a new popup indicating that the branch containing your changes has been pushed from your local repository to your remote repository. Click the button that says `Compare & pull request`. This will bring you to a menu showing you the commits encapsulated on this branch. Review your changes, and create a pull request.
 9. At this point, if another student has modified the same line as you in the same file, you may get a merge conflict. Complete [this supplementary lab](supplementary_labs/ResolvingMergeConflicts.md) to resolve the merge conflict, and then retry from step #7.
 10. Once the pull request is submitted, I will need to approve it to merge it.
 
