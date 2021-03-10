@@ -49,6 +49,7 @@ If do not want to make a change to existing material, create your own supplement
     ```
     git status
     ```
+    > Hint: "***Staging***" means telling Git which files to track in the next snapshot. The reason we stage changes is so that Git does not have to scan every file in the project for potential changes before every snapshot. Staging also gives the user more control over which changes Git tracks (i.e. if you make a breaking change, don't stage it, and Git will pretend that change never happened in the next snapshot! 
 5. Stage your changes for commit by running the following command for every file you changed.
    
    ```
@@ -59,6 +60,7 @@ If do not want to make a change to existing material, create your own supplement
    ```
     git commit -m "Write a descriptive commit message here about the changes you made"
     ```
+    > Hint: "***Committing***" is recording a snapshot of all your staged changes. A commit is "recorded" in your local version histoy, and can be read, referenced, or reverted in the future.
 7. Now, push your local change to your remote fork by running this command:
    
    ```
