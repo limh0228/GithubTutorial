@@ -11,7 +11,7 @@ Supplementary labs will introduce additional common Git commands and resources. 
 ## Getting started
 1. First, make sure you have Git installed on your machine. To check if it is installed, open your shell of choice and type `git version`. This command should return your current version of Git. If it does not, you should go to [Git's Download Options](https://git-scm.com/downloads) and choose the download appropriate for your OS.
 2. Go to Github and fork this repository, by navigating to [the project page](https://github.com/limh0228/GithubTutorial) and clicking the **Fork** button on the upper right corner of the project page.
-> Hint: This creates a remote copy of the repository under your own account. This fork is connected to the original project, and is now ready for creating pull requests.
+> Hint: This creates a remote copy of the repository under your own account (your very own fork). The fork is connected to the original project, and is now configured for creating pull requests.
 3. Open your shell again (Git Bash if using windows), and clone your personal fork to your local machine.
     -  Go to your fork's repository on GitHub
     - Click the green **Code** button. This will give you the project URL for your fork. Copy this URL.
