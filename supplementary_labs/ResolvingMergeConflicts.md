@@ -1,7 +1,7 @@
 ### Resolving merge conflicts in Git
 Uh oh! You've got a merge conflict. Whether you have performed a pull or initiated your own merge, it seems that you are trying to unify two potentially conflicting versions of your project. 
 
-Normally, Git will perform perfunctory merges for you, but updating files without conflicting changes (if only one person edited the file). However, for complicated merges, such as those containing changes by two different people on the same exact line, Git will ask you to help it resolve these conflicts, and help it choose which version of the code to keep.
+Normally, Git will perform perfunctory merges for you like updating files without conflicting changes (if only one person edited the file). However, for complicated merges, such as those containing changes by two different people on the same exact line, Git will ask you to help it resolve these conflicts, and help it choose which version of the code to keep.
 
 [Link to additional documentation](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-using-the-command-line)
 
