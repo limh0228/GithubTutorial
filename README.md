@@ -16,7 +16,7 @@ Supplementary labs will introduce additional common Git commands and resources. 
     -  Go to your fork's repository on GitHub
     - Click the green **Code** button. This will give you the project URL for your fork. Copy this URL.
     - In your shell, navigate to the directory where you would like to clone the project. If you are unfamiliar with navigating through the shell, use [this page](https://linuxize.com/post/linux-cd-command/) as a helpful guide to **cd**.
-    - Clone your fork repository:
+    - Clone your fork repository by copying the project url on the top right code button:
         ```
         git clone <project_url>
         ```
