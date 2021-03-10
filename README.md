@@ -35,7 +35,7 @@ In this step, you will be making a change to your clone of this repository. Thin
 - Add more markdown styling to make the README more clear
 - Add an additional note about OS specific corrections (i.e. in Windows, you will need to ...)
 
-If do not want to make a change to existing material, create your own supplementary lab under the `supplementary_labs` folder, using the file [`supplementary_labs/SupplementaryLabTemplate`](supplementary_labs/SupplementaryLabTemplate.md) as a template. Use the lab  [`supplementary_labs/CheckingYourStatus`](supplementary_labs/CheckingYourStatus.md) as an example.
+If do not want to make a change to existing material, create your own supplementary lab under the `supplementary_labs`(supplementary_labs) folder, using the file [`supplementary_labs/SupplementaryLabTemplate`](supplementary_labs/SupplementaryLabTemplate.md) as a template. Use the lab  [`supplementary_labs/CheckingYourStatus`](supplementary_labs/CheckingYourStatus.md) as an example.
 
 1. In your shell, navigate to the repository clone you have made on your local machine.
 2. Create a branch to encapsulate the changes you will make for your new "feature":
@@ -90,7 +90,7 @@ If do not want to make a change to existing material, create your own supplement
 ## Pulling after a merge
 Once I have merged a pull request like yours, you will have pull the from the original remote project again to get the updated code. To pull from the upstream, first you will have to set the uptream alias by running:
 
-    git remote add upstream <URL od the original remote repo>
+    git remote add upstream <URL of the original remote repo owned by me>
     
 Verify that the upstream URL was added correctly by running:
     
@@ -103,7 +103,7 @@ Now, you can pull the updated code from the upstream project into your local cop
 You now have the most current version of the upstream project in your local machine, and if you navigate to where you made your change, you should see now that it has been incorporated! Great job!
 
 ## Additional materials
-This lab is an extremely rudimentary look at the basics. Git has [hundreds of other advanced functionalities](https://git-scm.com/docs) which students will find extremely useful. Students who have finished the lab, should go complete at least one supplementary lab under the folder `supplementary_labs` which demonstrates one of these additional functions. Estimated time of completion for the supplementary labs is 5 minutes.
+This lab is an extremely rudimentary look at the basics. Git has [hundreds of other advanced functionalities](https://git-scm.com/docs) which students will find extremely useful. Students who have finished the lab, should go complete at least one supplementary lab under the folder `supplementary_labs`(supplementary_labs) which demonstrates one of these additional functions. Estimated time of completion for the supplementary labs is 5 minutes.
 
 ## Finally
 Please let me know if you found this lab helpful. Especially let me know if you found this lab incomplete of confusing. Feedback is greatly appreciated. Thanks for your great work!
