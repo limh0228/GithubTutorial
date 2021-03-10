@@ -28,7 +28,7 @@ Supplementary labs will introduce additional common Git commands and resources. 
         ```
 ## Contributing a change
 In this step, you will be making a change to your clone of this repository. Think of an improvement you could make to this project. Which steps did you find confusing? Did you ever feel like I had assumed too much about your knowledge of your system? Here are some examples:
-- Fix a typo in this README to correct
+- Fix a typo in this README
 - Add additional information to a step that confused you, or was not clear or specific enough
 - Insert a helpful link
 - Correct a mistake in my markdown styling
