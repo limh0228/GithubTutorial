@@ -81,6 +81,7 @@ Once I have merged a pull request like yours, you will have pull the from the or
     ```
     git remote add upstream <URL of the original remote repo>
     ```
+    
     Verify that the upstream URL was added correctly by running:
     
     ```
