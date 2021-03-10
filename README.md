@@ -1,4 +1,4 @@
-GitHub desktop can also be very useful to make some of the stepes easier.
+GitHub desktop can also be very useful to make some of the steps easier.
 
 # GitHub Workflows for Beginners
 
