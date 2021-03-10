@@ -10,7 +10,7 @@ Normally, Git will perform perfunctory merges for you like updating files withou
 2.  When you open the file in your text editor, you'll see the changes from the HEAD or base branch after the line `<<<<<<< HEAD`. Next, you'll see `=======`, which divides your changes from the changes in the other branch, followed by `>>>>>>> BRANCH-NAME`.
 3. Now, resolve the merge by doing one of the following:
    - Choose a better version. If one revision completely replaces the other, choose the correct revision, and erase the other one. Delete all the merge markers like `<<<<<<<`, `<<<<<<< HEAD`, `=======`, and `>>>>>>> BRANCH-NAME`.
-   - Combine the versions. If both chnages or some combination of bothe changes should be kept, write out your final, correct version, and delete all the merge markers.
+   - Combine the versions. If both changes or some combination of both changes should be kept, write out your final, correct version, and delete all the merge markers.
 
    Make sure to save your changes.
 4. Run the following command to see which files you have changed:
@@ -22,7 +22,7 @@ Normally, Git will perform perfunctory merges for you like updating files withou
 
    ```
    git add <filepath of changed file>
-6. Commit your staged changes byt running the following:
+6. Commit your staged changes by running the following:
 
    ```
    git commit -m "Resolved merge conflicts in <insert filename(s)>"
