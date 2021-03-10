@@ -43,7 +43,7 @@ If do not want to make a change to existing material, create your own supplement
     ```
     git checkout -b "your_new_branch_name"
     ```
-3. Now that you have made and switched to the new branch, make your change. Open up the file you would like to make a change to in your local machine, or alternatively, create you own supplementary lab under `supplementary_labs`. Make your change, and save it.
+3. Now that you have made and switched to the new branch, make your change. Open up the file you would like to make a change to in your local machine, or alternatively, create you own supplementary lab under [`supplementary_labs`](supplementary_labs). Make your change, and save it.
 4. Run a git status to see your changes, and the filepaths of the files you have changed. Notice they are red because they have not been staged.
 5. Stage your changes for commit by running the following command for every file you changed.
    
