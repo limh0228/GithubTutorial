@@ -60,16 +60,35 @@ If do not want to make a change to existing material, create your own supplement
    ```
     git push origin <your branch name>
     ```
+    The first time you run this command, the origin repository URL may not be set. To check if this is the case, use 
+    
+    ``` 
+    git remote -v
+    ```
+    This command should tell you whetehr or not your "origin" alias is set to the correct repository. It should be set to the URL of your fork in GitHub. If it isn't, set it now in Git by running:
+    
+    ```
+    git remote add origin <URL of your remote fork>
+    ```
+    Now retry the push command.
+    At this point, if another student has modified the same line as you in the same file, you may get a merge conflict. Complete [this supplementary lab](supplementary_labs/ResolvingMergeConflicts.md) to resolve the merge conflict, and then retry the push command.
 8. Open your remote repository on GitHub. On the main project page, there should be a new popup indicating that the branch containing your changes has been pushed from your local repository to your remote repository. Click the button that says `Compare and create pull request`. This will bring you to a menu showing you the commits encapsulated on this branch.
 9. Once the pull request is submitted, I will need to approve it to merge it.
 
 ## Pulling after a merge
-Once I have merged a pull request like yours, pull the now changed code by running:
-
+Once I have merged a pull request like yours, you will have pull the from the original remote project again to get the updated code. To pull from the upstream, first you will have to set the uptream alias by running:
     ```
-    git pull upstream main
+    git remote add upstream <URL of the original remote repo>
     ```
-You now have the most current version of the upstream project in your local machine, and if you navigate to where you made your change, you should see nwo that it has been incorporated! Great job!
+    Verify that the upstream URL was added correctly by running:
+    ```
+    git remote -v
+    ```
+    Now, you can pull the updated code from the upstream project into your local copy of the code.
+    ```
+    git pull upstream
+    ```
+You now have the most current version of the upstream project in your local machine, and if you navigate to where you made your change, you should see now that it has been incorporated! Great job!
 
 ## Additional materials
 This lab is an extremely rudimentary look at the basics. Git has [hundreds of other advanced functionalities](https://git-scm.com/docs) which students will find extremely useful. Students who have finished the lab, should go complete at least one supplementary lab under the folder `supplementary_labs` which demonstrates one of these additional functions. Estimated time of completion for the supplementary labs is 5 minutes.
