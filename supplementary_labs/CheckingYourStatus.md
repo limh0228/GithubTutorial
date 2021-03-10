@@ -27,6 +27,7 @@ git status
   git status
   ```
   Notice that the status will show you which file was changed. The filename should be red.
+  
 5. Stage the changed file by running:
 
   ```
