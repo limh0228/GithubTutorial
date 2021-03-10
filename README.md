@@ -77,14 +77,15 @@ If do not want to make a change to existing material, create your own supplement
     git remote add origin <URL of your remote fork>
     ```
     Now retry the push command.
-    At this point, if another student has modified the same line as you in the same file, you may get a merge conflict. Complete [this supplementary lab](supplementary_labs/ResolvingMergeConflicts.md) to resolve the merge conflict, and then retry the push command.
-    Another possible error you may encounter at this point is that the remote contains work your local does not have. If this is the case, it simply means that you have to update your local clone before pushing to your fork. To do this, run
+    
+    You may encounter an error that says the remote fork contains work your local does not have. If this is the case, it simply means that you have to update your local clone before pushing to your fork. To do this, run
     ```
     git pull origin
     ```
     Then, retry your push command.
-8. Open your remote repository on GitHub. On the main project page, there should be a new popup indicating that the branch containing your changes has been pushed from your local repository to your remote repository. Click the button that says `Compare and create pull request`. This will bring you to a menu showing you the commits encapsulated on this branch.
-9. Once the pull request is submitted, I will need to approve it to merge it.
+8. Open your remote repository on GitHub. On the main project page, there should be a new popup indicating that the branch containing your changes has been pushed from your local repository to your remote repository. Click the button that says `Compare and create pull request`. This will bring you to a menu showing you the commits encapsulated on this branch. Review your changes, and create a pull request.
+9. At this point, if another student has modified the same line as you in the same file, you may get a merge conflict. Complete [this supplementary lab](supplementary_labs/ResolvingMergeConflicts.md) to resolve the merge conflict, and then retry from step #7.
+10. Once the pull request is submitted, I will need to approve it to merge it.
 
 ## Pulling after a merge
 Once I have merged a pull request like yours, you will have pull the from the original remote project again to get the updated code. To pull from the upstream, first you will have to set the uptream alias by running:
