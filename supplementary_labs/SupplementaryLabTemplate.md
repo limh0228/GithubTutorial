@@ -24,10 +24,11 @@ git <insert your command> <insert additional info needed for the command>
 ## Follow these steps to try it out!
 1. Insert steps here
 2. One step must include running the command:
+3. 
    ```
    git <insert your command> <insert additional info needed for the command>
    ```
-3. Describe the expected output
+3. Describe the expected output so someone doing the lab knows if they have completed it correctly.
 
 
 
