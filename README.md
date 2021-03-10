@@ -103,7 +103,7 @@ Now, you can pull the updated code from the upstream project into your local cop
 You now have the most current version of the upstream project in your local machine, and if you navigate to where you made your change, you should see now that it has been incorporated! Great job!
 
 ## Additional materials
-This lab is an extremely rudimentary look at the basics. Git has [hundreds of other advanced functionalities](https://git-scm.com/docs) which students will find extremely useful. Students who have finished the lab, should go complete at least one supplementary lab under the folder `supplementary_labs`(supplementary_labs) which demonstrates one of these additional functions. Estimated time of completion for the supplementary labs is 5 minutes.
+This lab is an extremely rudimentary look at the basics. Git has [hundreds of other advanced functionalities](https://git-scm.com/docs) which students will find extremely useful. Students who have finished the lab, should go complete at least one supplementary lab under the folder [`supplementary_labs`](supplementary_labs) which demonstrates one of these additional functions. Estimated time of completion for the supplementary labs is 5 minutes.
 
 ## Finally
-Please let me know if you found this lab helpful. Especially let me know if you found this lab incomplete of confusing. Feedback is greatly appreciated. Thanks for your great work!
+Please let me know if you found this lab helpful. Especially let me know if you found this lab incomplete or confusing. Feedback is greatly appreciated. Thanks for your great work!
