@@ -23,19 +23,19 @@ git status
 3. Make a change to a file. (The change may be trivial, you can undo this change later). Save your change.
 4. Run the command again:
 
-  ```
-  git status
-  ```
-  Notice that the status will show you which file was changed. The filename should be red.
+   ```
+   git status
+   ```
+   Notice that the status will show you which file was changed. The filename should be red.
   
 5. Stage the changed file by running:
 
-  ```
-  git add <filepath>
-  ```
+   ```
+   git add <filepath>
+   ```
 6. Run the command again:
 
-  ```
-  git status
-  ```
-  Notice that the status will show you which file was staged. The filename should be green now.
+   ```
+   git status
+   ```
+   Notice that the status will show you which file was staged. The filename should be green now.
