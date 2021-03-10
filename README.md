@@ -1,3 +1,5 @@
+GitHub desktop can also be very useful to make some of the steps easier.
+
 # GitHub Workflows for Beginners
 
 This tutorial will take you through a basic Git setup and workflow which most developers will use to contribute to repositories on GitHub. 
