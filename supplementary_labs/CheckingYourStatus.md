@@ -33,6 +33,13 @@ git status
    ```
    git add <filepath>
    ```
+
+   You can also add all files that have been changed with
+
+   ```
+   git add *
+   ```
+   
 6. Run the command again:
 
    ```
