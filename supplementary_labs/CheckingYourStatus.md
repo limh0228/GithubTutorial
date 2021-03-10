@@ -11,6 +11,7 @@ git status
 ```
 
 [Link to additional documentation](https://git-scm.com/docs/git-status)
+(https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-status-checks)
 
 ### Follow these steps to try it out!
 1. First, open your terminal, and naviagte to a project repository.
