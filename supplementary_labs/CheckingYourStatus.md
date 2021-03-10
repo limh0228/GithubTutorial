@@ -12,7 +12,7 @@ git status
 
 [Link to additional documentation](https://git-scm.com/docs/git-status)
 
-## Follow these steps to try it out!
+### Follow these steps to try it out!
 1. First, open your terminal, and naviagte to a project repository.
 2. Run the command:
 
