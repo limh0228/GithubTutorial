@@ -77,14 +77,17 @@ If do not want to make a change to existing material, create your own supplement
 
 ## Pulling after a merge
 Once I have merged a pull request like yours, you will have pull the from the original remote project again to get the updated code. To pull from the upstream, first you will have to set the uptream alias by running:
+
     ```
     git remote add upstream <URL of the original remote repo>
     ```
     Verify that the upstream URL was added correctly by running:
+    
     ```
     git remote -v
     ```
     Now, you can pull the updated code from the upstream project into your local copy of the code.
+    
     ```
     git pull upstream
     ```
