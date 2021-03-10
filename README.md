@@ -35,7 +35,7 @@ In this step, you will be making a change to your clone of this repository. Thin
 - Add more markdown styling to make the README more clear
 - Add an additional note about OS specific corrections (i.e. in Windows, you will need to ...)
 
-If do not want to make a change to existing material, create your own supplementary lab under the `supplementary_labs`(supplementary_labs) folder, using the file [`supplementary_labs/SupplementaryLabTemplate`](supplementary_labs/SupplementaryLabTemplate.md) as a template. Use the lab  [`supplementary_labs/CheckingYourStatus`](supplementary_labs/CheckingYourStatus.md) as an example.
+If you do not want to make a change to existing material, create your own supplementary lab under the `supplementary_labs`(supplementary_labs) folder, using the file [`supplementary_labs/SupplementaryLabTemplate`](supplementary_labs/SupplementaryLabTemplate.md) as a template. Use the lab  [`supplementary_labs/CheckingYourStatus`](supplementary_labs/CheckingYourStatus.md) as an example.
 
 1. In your shell, navigate to the repository clone you have made on your local machine.
 2. Create a branch to encapsulate the changes you will make for your new "feature":
