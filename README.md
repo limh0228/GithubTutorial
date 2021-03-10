@@ -88,7 +88,7 @@ If do not want to make a change to existing material, create your own supplement
 10. Once the pull request is submitted, I will need to approve it to merge it.
 
 ## Pulling after a merge
-Once I have merged a pull request like yours, you will have pull the from the original remote project again to get the updated code. To pull from the upstream, first you will have to set the uptream alias by running:
+Once I have merged a pull request like yours, you will have pull the code from the original remote project again to get the updated code. To pull from the upstream, first you will have to set the uptream alias by running:
 
     git remote add upstream <URL of the original remote repo owned by me>
     
@@ -101,6 +101,8 @@ Now, you can pull the updated code from the upstream project into your local cop
     git pull upstream
    
 You now have the most current version of the upstream project in your local machine, and if you navigate to where you made your change, you should see now that it has been incorporated! Great job!
+
+> Hint: Remember from the presentation that the code exists in 3 places. Now, the upstream is updated, and the local clone is updated. How do we update the last repository -- your fork? Try to see if you can figure out how to update your fork using Step #7.
 
 ## Additional materials
 This lab is an extremely rudimentary look at the basics. Git has [hundreds of other advanced functionalities](https://git-scm.com/docs) which students will find extremely useful. Students who have finished the lab, should go complete at least one supplementary lab under the folder [`supplementary_labs`](supplementary_labs) which demonstrates one of these additional functions. Estimated time of completion for the supplementary labs is 5 minutes.
