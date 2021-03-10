@@ -38,6 +38,7 @@ In this step, you will be making a change to your clone of this repository. Thin
 If do not want to make a change to existing material, create your own supplementary lab under the `supplementary_labs`(supplementary_labs) folder, using the file [`supplementary_labs/SupplementaryLabTemplate`](supplementary_labs/SupplementaryLabTemplate.md) as a template. Use the lab  [`supplementary_labs/CheckingYourStatus`](supplementary_labs/CheckingYourStatus.md) as an example.
 
 1. In your shell, navigate to the repository clone you have made on your local machine.
+1.5 Hydration Reminder: Remember to go drink some water bottle.  Stay hydrated!
 2. Create a branch to encapsulate the changes you will make for your new "feature":
     
     ```
